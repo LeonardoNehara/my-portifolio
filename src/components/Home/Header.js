@@ -17,20 +17,17 @@ const Header = () => {
                                 <span className="text-gradient d-inline">E ajudo você a crescer rápido.</span>
                             </h1>
                             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                <a className="btn btn-dark btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="/resume">Resume</a>
-                                <a className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="/projects">Projects</a>
+                                <a className="btn btn-dark btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="/resume">Sobre</a>
+                                <a className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="/projects">Projetos</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-xxl-7">
                         <div className="d-flex justify-content-center mt-5 mt-xxl-0">
                             <div className="profile bg-gradient-primary-to-secondary position-relative">
-                                {/* Substitua pela sua imagem real */}
                                 <img className="profile-img" src={Profile} alt="Profile" />
 
-                                {/* Dots 1 */}
                                 <div className="dots-1 position-absolute">
-                                    {/* Você pode mover o SVG para um componente separado ou um arquivo .svg */}
                                     <svg
                                       version="1.1"
                                       xmlns="http://www.w3.org/2000/svg"

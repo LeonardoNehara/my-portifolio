@@ -21,7 +21,7 @@ const educationList = [
 
 const EducationSection = () => (
   <section>
-    <h2 className="text-secondary fw-bolder mb-4">Education</h2>
+    <h2 className="text-secondary fw-bolder mb-4">Formação</h2>
     {educationList.map((edu, i) => (
       <EducationCard key={i} {...edu} />
     ))}

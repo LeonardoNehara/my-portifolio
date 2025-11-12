@@ -9,7 +9,7 @@ const ResumePage = () => (
       <div className="container px-5 my-5">
         <div className="text-center mb-5">
           <h1 className="display-5 fw-bolder mb-0">
-            <span className="text-gradient d-inline">Resume</span>
+            <span className="text-gradient d-inline">Quem Sou Eu</span>
           </h1>
         </div>
         <div className="row gx-5 justify-content-center">
