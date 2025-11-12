@@ -21,7 +21,7 @@ const experiences = [
 const ExperienceSection = () => (
   <section>
     <div className="d-flex align-items-center justify-content-between mb-4">
-      <h2 className="text-primary fw-bolder m-3">Experience</h2>
+      <h2 className="text-primary fw-bolder m-3">Experiência</h2>
       <a className="btn btn-primary px-4 py-3" href={curriculoPDF} download>
         <div className="d-inline-block bi bi-download me-2"></div>
         Download Resume

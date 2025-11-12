@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import '../../styles/index.css'; // Opcional: para customizações adicionais de estilo
+import '../../styles/index.css'; 
 
 const About = () => {
   return (
